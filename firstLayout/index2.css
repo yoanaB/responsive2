@@ -1,0 +1,37 @@
+.container-main {
+    background-color: aqua;
+    margin: 10px;
+    padding-bottom: 20%;
+
+}
+
+.container-aside {
+    background-color: coral;
+    margin: 10px;
+    padding-bottom: 15%;
+}
+
+@media only screen and (min-width: 768px) {
+    .container-aside{
+        display: inline-block;
+        width: 47%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container-main {
+        width: 65%;
+        padding-bottom: 45%;
+        display: inline-block;
+        float: left;
+    }
+
+    .container-aside {
+        width: 30%;
+        padding-bottom: 21%;
+        display: inline-block;
+        float: right;
+    }
+}
+
+
